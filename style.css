@@ -1,0 +1,45 @@
+body
+{
+    background-color: darkcyan;
+}
+
+#sketch
+{
+    float: right;
+}
+h1
+{
+    color: aliceblue;
+}
+#label
+{
+    font-size: 20px;
+    color: aliceblue;
+}
+#confidence
+{
+    font-size: 20px;
+    color: aliceblue;
+}
+#scores
+{
+ float: left;
+ font-size: 50px;
+ color: aliceblue;
+}
+#timer
+{
+    float: right;
+    font-size: 50px;
+    color: aliceblue;
+}
+canvas{
+    border: 5px solid white;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 38px blue;}
+    to{box-shadow: 1px 1px 38px rgb(84, 8, 134);}
+}
